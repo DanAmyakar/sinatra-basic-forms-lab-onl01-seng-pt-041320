@@ -17,7 +17,7 @@ describe App do
       visit '/'
       expect(page).to have_link("List A Puppy", href: '/new')
     end
-  end
+  end 
 
   describe 'GET /new' do
     it 'sends a 200 status code' do

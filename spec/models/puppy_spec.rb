@@ -13,7 +13,7 @@ describe 'Puppy class' do
       nil
     end
   }
-
+ 
   it 'can create a new instance of the puppy class' do
     expect(puppy).to be_an_instance_of(Puppy)
   end
